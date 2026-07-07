@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "NCS-OS Sovereignty Cascades (Bottom-Up and Top-Down)",
+    "doi": "10.5281/zenodo.21237672"
+  },
+
+  "bottom_up": [
+    {
+      "from": "L0",
+      "to": "L1",
+      "type": "signal",
+      "description": "Epigenetic → Kernel initialization signals",
+      "notes": ""
+    },
+    {
+      "from": "L1",
+      "to": "L2",
+      "type": "intent",
+      "description": "Kernel → Behavioral governance intent propagation",
+      "notes": ""
+    },
+    {
+      "from": "L2",
+      "to": "L3",
+      "type": "policy",
+      "description": "Governance → Civilizational intelligence policy formation",
+      "notes": ""
+    },
+    {
+      "from": "L3",
+      "to": "L4",
+      "type": "directive",
+      "description": "Civilizational intelligence → Sovereign command directives",
+      "notes": ""
+    }
+  ],
+
+  "top_down": [
+    {
+      "from": "L4",
+      "to": "L3",
+      "type": "command",
+      "description": "Sovereign command → Civilizational intelligence execution",
+      "notes": ""
+    },
+    {
+      "from": "L3",
+      "to": "L2",
+      "type": "coordination",
+      "description": "Civilizational intelligence → Behavioral governance coordination",
+      "notes": ""
+    },
+    {
+      "from": "L2",
+      "to": "L1",
+      "type": "constraint",
+      "description": "Governance → Kernel constraint propagation",
+      "notes": ""
+    },
+    {
+      "from": "L1",
+      "to": "L0",
+      "type": "regulation",
+      "description": "Kernel → Epigenetic BIOS regulation signals",
+      "notes": ""
+    }
+  ]
+}
