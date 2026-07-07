@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "NCS-OS Cognitive Kernel structural definition",
+    "doi": "10.5281/zenodo.21237672"
+  },
+
+  "kernel": {
+    "apis": [
+      {
+        "id": "k_api_01",
+        "name": "IntentPropagation",
+        "input": ["L0_signals"],
+        "output": ["L2_governance_intents"],
+        "notes": ""
+      },
+      {
+        "id": "k_api_02",
+        "name": "ConstraintResolution",
+        "input": ["L2_constraints"],
+        "output": ["L0_regulation"],
+        "notes": ""
+      }
+    ],
+
+    "functions": [
+      {
+        "id": "k_fn_01",
+        "name": "StateIntegration",
+        "description": "Integrates multi-layer cognitive states into a unified kernel state.",
+        "notes": ""
+      },
+      {
+        "id": "k_fn_02",
+        "name": "DirectiveSynthesis",
+        "description": "Synthesizes actionable directives from L3/L4 high-level intelligence.",
+        "notes": ""
+      }
+    ],
+
+    "constraints": [
+      {
+        "id": "k_const_01",
+        "name": "SafetyInvariant",
+        "description": "Kernel must preserve safety invariants across all cascades.",
+        "notes": ""
+      },
+      {
+        "id": "k_const_02",
+        "name": "EpigeneticCompatibility",
+        "description": "Kernel outputs must remain compatible with L0 epigenetic BIOS.",
+        "notes": ""
+      }
+    ]
+  }
+}
