@@ -1,1 +1,40 @@
-{}
+{
+  "meta": {
+    "version": "1.0",
+    "description": "NCS-OS Sovereignty Stack (L0-L4) structural definition",
+    "doi": "10.5281/zenodo.21237672"
+  },
+
+  "layers": [
+    {
+      "id": "L0",
+      "name": "Neuro-Epigenetic BIOS Layer",
+      "components": [],
+      "notes": ""
+    },
+    {
+      "id": "L1",
+      "name": "Cognitive Kernel Layer",
+      "components": [],
+      "notes": ""
+    },
+    {
+      "id": "L2",
+      "name": "Behavioral Governance Layer",
+      "components": [],
+      "notes": ""
+    },
+    {
+      "id": "L3",
+      "name": "Civilizational Intelligence Layer",
+      "components": [],
+      "notes": ""
+    },
+    {
+      "id": "L4",
+      "name": "Sovereign Command Layer",
+      "components": [],
+      "notes": ""
+    }
+  ]
+}
