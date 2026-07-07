@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "NCS-OS Infographic Style Specification",
+    "doi": "10.5281/zenodo.21237672"
+  },
+
+  "colors": {
+    "background": "#FAFAFA",
+    "layer_L0": "#4A6FA5",
+    "layer_L1": "#5B8DB8",
+    "layer_L2": "#7FB2D6",
+    "layer_L3": "#A3D4E9",
+    "layer_L4": "#C8EAF5",
+    "text_primary": "#333333",
+    "text_secondary": "#555555",
+    "edge": "#888888",
+    "highlight": "#FFCC66"
+  },
+
+  "fonts": {
+    "family": "Inter",
+    "size_title": 22,
+    "size_layer": 18,
+    "size_body": 14,
+    "weight_title": 600,
+    "weight_layer": 500,
+    "weight_body": 400
+  },
+
+  "layout": {
+    "padding": 32,
+    "margin": 24,
+    "layer_spacing": 48,
+    "node_spacing": 24,
+    "edge_thickness": 2,
+    "corner_radius": 8
+  },
+
+  "signature": {
+    "enabled": true,
+    "text": "Y. Marutani",
+    "position": "bottom-right",
+    "color": "#333333",
+    "opacity": 0.92,
+    "size": 14
+  }
+}
