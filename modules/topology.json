@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "NCS-OS Structural Topology (Layer geometry, nodes, edges, domains)",
+    "doi": "10.5281/zenodo.21237672"
+  },
+
+  "layers": [
+    {
+      "id": "L0",
+      "geometry": "foundation",
+      "nodes": [],
+      "notes": ""
+    },
+    {
+      "id": "L1",
+      "geometry": "kernel_core",
+      "nodes": [],
+      "notes": ""
+    },
+    {
+      "id": "L2",
+      "geometry": "governance_field",
+      "nodes": [],
+      "notes": ""
+    },
+    {
+      "id": "L3",
+      "geometry": "intelligence_mesh",
+      "nodes": [],
+      "notes": ""
+    },
+    {
+      "id": "L4",
+      "geometry": "sovereign_shell",
+      "nodes": [],
+      "notes": ""
+    }
+  ],
+
+  "edges": [
+    {
+      "from": "L0",
+      "to": "L1",
+      "type": "vertical",
+      "description": "Structural link from BIOS → Kernel",
+      "notes": ""
+    },
+    {
+      "from": "L1",
+      "to": "L2",
+      "type": "vertical",
+      "description": "Structural link from Kernel → Governance",
+      "notes": ""
+    },
+    {
+      "from": "L2",
+      "to": "L3",
+      "type": "vertical",
+      "description": "Structural link from Governance → Intelligence",
+      "notes": ""
+    },
+    {
+      "from": "L3",
+      "to": "L4",
+      "type": "vertical",
+      "description": "Structural link from Intelligence → Sovereign",
+      "notes": ""
+    }
+  ],
+
+  "domains": [
+    {
+      "id": "domain_cognitive",
+      "layers": ["L1", "L2"],
+      "description": "Cognitive processing domain spanning kernel and governance.",
+      "notes": ""
+    },
+    {
+      "id": "domain_intelligence",
+      "layers": ["L2", "L3"],
+      "description": "Intelligence formation domain spanning governance and civilizational intelligence.",
+      "notes": ""
+    },
+    {
+      "id": "domain_sovereign",
+      "layers": ["L3", "L4"],
+      "description": "Sovereign decision domain spanning intelligence and command.",
+      "notes": ""
+    }
+  ]
+}
